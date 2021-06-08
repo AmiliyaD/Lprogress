@@ -1,0 +1,280 @@
+* {
+    background-repeat: no-repeat;
+    font-family: 'Playfair Display', serif;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.footer_a a {
+    color: black;
+    margin-left: 20px;
+}
+
+.a_main {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.marg_top {
+    margin-top: 150px;
+}
+
+.marg_might_top {
+    margin-top: 300px;
+}
+
+.header_left {
+    margin-left: 120px;
+}
+
+.header_a a {
+    margin-left: 50px;
+}
+
+.nav_soc a {
+    margin-left: 20px;
+}
+
+.nav_soc {
+    margin-left: 250px;
+}
+
+.all_p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+
+}
+
+.all_h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 105px;
+    /* or 131% */
+
+    letter-spacing: 0.045em;
+
+    color: #000000;
+}
+
+.main_a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.button_here {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 48px;
+    /* or 120% */
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #FF9900;
+    border-radius: 10px;
+}
+
+
+
+/* стили главного тектса */
+.header {
+    margin-top: 20px;
+}
+
+h1 {
+    font-style: bold;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 139px;
+    /* or 139% */
+
+    color: #FF9900;
+    align-items: center;
+    letter-spacing: 0.09em;
+
+}
+
+.main_about__button {
+    margin-top: 100px;
+}
+
+.button_main {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.main {
+    background-size: 60%;
+    background-position: right 200px;
+    height: 1000px;
+    background-image: url('../web/jpg/Group\ 33.png');
+}
+
+/* стили "о нас" */
+.orange_p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 39px;
+    letter-spacing: -0.005em;
+
+    color: #FCA31D;
+
+}
+
+.about_text__p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    letter-spacing: -0.005em;
+
+    color: #000000;
+    margin-top: 45px;
+}
+.about_text__pB {
+    font-weight: bold;
+    font-size: 24px;
+}
+.about_us__condit {
+    margin-top: 200px;
+}
+.about_us__body {
+    margin-top: 70px;
+}
+
+.item__p {
+    margin-top: 30px;
+}
+
+.orange_span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    letter-spacing: -0.005em;
+
+    color: #FCA31D;
+
+}
+
+/* условия */
+.cond_p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 148% */
+
+    letter-spacing: 0.175em;
+
+    color: rgba(0, 0, 0, 0.69);
+}
+
+.back {
+    background-position: bottom left;
+    background-image: url('../web/backround.png');
+    padding-bottom: 30px;
+}
+
+.conditions_item {
+    margin-top: 210px;
+}
+
+
+/*  мы лучшие */
+.we_item {
+    margin-top: 120px;
+}
+
+.we_p {
+    margin-top: 30px;
+}
+
+.best_p {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.005em;
+
+    color: #000000;
+}
+
+/* почему мы лучшие */
+.best_first {
+    margin-top: 150px;
+}
+
+.why_we_are_best__body {
+    margin-top: 50px;
+}
+
+/* контакт */
+
+.contacts__info p {
+    margin-top: 85px;
+}
+
+.contacts_contact p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 172% */
+
+    letter-spacing: 0.045em;
+
+    color: #000000;
+}
+
+.line {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.word p {
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: tb-rl;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width: 770px) {
+    .main {
+        background: none;
+    }
+
+
+
+}
