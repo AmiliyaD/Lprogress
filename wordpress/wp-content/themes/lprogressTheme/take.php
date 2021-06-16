@@ -1,6 +1,6 @@
 <!-- Template Name: TakeDebt -->
 <?php
-  
+
 get_header();
 $spanDe = '';
 $social = '';
@@ -19,7 +19,7 @@ else if ($pos === false) {
       
 
             <!-- форма -->
-            <p><?php echo $_SESSION['message']; ?></p>
+            <p></p>
             <div class="row take_debt__form d-flex justify-content-between">
        
                 <form class="col-md-4 debt_form" method="post" action="functions.php">

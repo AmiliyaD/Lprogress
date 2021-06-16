@@ -13,13 +13,14 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse header_left  navbar-collapse" id="navbarNavAltMarkup">
-               <?php
-               wp_nav_menu([
-                 'theme_location'=>'footer',
-                 'container' => '',
-                 'items_wrap' => '%3$s'
-               ])
-               ?>
+                <div class="navbar-nav header_a">
+                <?php wp_nav_menu([
+                    'theme_location' => 'footer',
+                    'container' => '',
+                    'items_wrap' => '%3$s' 
+  
+                ]) ?>
+                </div>
                     <div class="nav_soc">
                         <?php dynamic_sidebar('footer_social') ?>
                     </div>

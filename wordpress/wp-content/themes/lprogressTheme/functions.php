@@ -1,4 +1,19 @@
 <?php
+global $wpdb;
+if ($_POST) {
+    if($_POST['form-name'] == '' || $_POST['email'] == '' || $_POST['phone'] == '') {
+        $ff = 'ффффф заполн';
+        $_SESSION['message'] = 'Не все поля заполнены!';
+
+    } 
+    else {
+        $_SESSION['message'] = 'Данные отправлены';
+        $wpdb->insert('form_dataform', ['form_name' => $_POST['form-name'], 'phone' => $_POST['phone'], 'emailAdress' => $_POST['email'] ]);
+        header('Location: index.php');
+    }
+    
+    
+}
 
 // ТУТ ВСЕ НУЖНЫЕ НАМ ФУНКЦИИ WORDPRESS
 // классы с виджетами
@@ -21,6 +36,9 @@ add_action('after_setup_theme', 'header_menu');
 add_filter('nav_menu_css_class', 'menuClasses');
 add_filter('nav_menu_link_attributes', 'aClasses');
 add_action('wp_enqueue_scripts', 'my_theme');
+
+
+
 
 // Добавляем стили для главной страницы
 function my_theme()

@@ -1,4 +1,5 @@
 <?php 
+
 get_header();
 ?>
 
@@ -20,6 +21,13 @@ get_header();
         ?>
  <!-- main  -->
  <div class='container'> 
+ <?php 
+ $a  = $_SESSION['message'];
+
+ echo $a;
+         unset($_SESSION['message']);
+     
+           ?>
         <div class="row   main d-flex justify-content-between">
             <div class='col-md-5  marg_top'>
                 <?php dynamic_sidebar('head_sidebar') ?>
@@ -29,6 +37,7 @@ get_header();
 
 
     <?php dynamic_sidebar('society') ?>
+
                 <!-- <div> <a href="https://www.google.com/"><img class='img-thumbnail' width="26px" src="web/icon/google.png" alt=""></a></div>
                 <div><a href="https://www.instagram.com/"><img class='img-thumbnail' width="26px" src="web/icon/ins.png" alt=""></a></div>
                 <div><a href="https://vk.com/feed"><img class='img-thumbnail' width="26px" src="web/icon/vk.png" alt=""></a></div>
