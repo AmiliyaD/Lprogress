@@ -28,13 +28,20 @@ get_header();
          unset($_SESSION['message']);
      
            ?>
+                <div class="row">
+        <?php dynamic_sidebar('lang') ?>
+        </div>
         <div class="row   main d-flex justify-content-between">
+   
             <div class='col-md-5  marg_top'>
                 <?php dynamic_sidebar('head_sidebar') ?>
             </div>
+
+          
             <div class='col-md-1 header_soc'>
 
 
+       
 
     <?php dynamic_sidebar('society') ?>
 
